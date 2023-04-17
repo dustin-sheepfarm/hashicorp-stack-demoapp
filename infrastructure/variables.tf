@@ -1,3 +1,13 @@
+variable "HCP_CLIENT_ID" {
+  type        = string
+  description = "hcp client id"
+}
+
+variable "HCP_CLIENT_SECRET" {
+  type        = string
+  description = "SSH keypair name for Boundary and EKS nodes"
+}
+
 variable "name" {
   type        = string
   description = "Name of the EKS cluster"
